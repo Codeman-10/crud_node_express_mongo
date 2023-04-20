@@ -1,0 +1,26 @@
+
+GET HTTP://localhost:3000/subscribers
+
+###
+GET HTTP://localhost:3000/subscribers/64411e873dd3ae1b5403323a
+###
+POST HTTP://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"vijay",
+    "subscribedToChannel":"gokul 3yt"
+} 
+
+###
+DELETE HTTP://localhost:3000/subscribers/64411e873dd3ae1b540f323a
+
+###
+PATCH HTTP://localhost:3000/subscribers/644124b115d57f36647784ff
+Content-Type: application/json
+
+{
+    "name":"sdsdsd",
+        "subscribedToChannel":"ommale"
+
+} 
